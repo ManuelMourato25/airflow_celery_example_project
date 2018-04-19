@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Mr X",
+        "Client_data": {
+            "Age": 25,
+            "Status": "Single",
+            "Income": 20000
+        }
+    },
+    {
+        "Name" "Mr Y": ,
+        "Client_data": {
+            "Age": 35,
+            "Status": "Divorced",
+            "Income": 50000
+        }
+    },
+    {
+        "Name": "Mr Z",
+        "Client_data": {
+            "Age": 50,
+            "Status": "Married",
+            "Income": 100000
+        }
+    }
+]
