@@ -8,7 +8,7 @@
         }
     },
     {
-        "Name" "Mr Y": ,
+        "Name": "Mr Y",
         "Client_data": {
             "Age": 35,
             "Status": "Divorced",
