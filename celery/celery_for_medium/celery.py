@@ -9,7 +9,7 @@ from __future__ import absolute_import, unicode_literals
 from celery import Celery
 
 
-json_to_sql_Celery_app = Celery(main="celery_for_medium.celery", broker="amqp://guest:guest@headnode1.rocm:5672/", backend="db+mysql://root:admin@headnode1.rocm/celery", include=["celery_for_medium.tasks"])
+json_to_sql_Celery_app = Celery(main="celery_for_medium.celery", broker="amqp://<USERNAME>:<PASSWORD>@<RABBITMQ_HOST>:5672/", backend="db+mysql://<USERNAME>:<PASSWORD>@<MYSQL_SERVER>/celery", include=["celery_for_medium.tasks"])
 
 if __name__ == '__main__':
     json_to_sql_Celery_app.start()
